@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Kyle Huang's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Home</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="AboutMe.html">About Me</a></li>
+								<li><a href="MoreProjects.html">More Projects</a></li>
+								<!-- <li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li> -->
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="icon fa-gem"></span></div>
+							<h2>Kyle Huang's Portfolio</h2>
+							<p>Electronic Systems Engineer well versed in control systems, electrical design, and software</a></p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="https://docs.google.com/document/d/e/2PACX-1vRYVQu43XsaEJ_iGtSfVuNcUy04t0qsoo1oArUJTqeuz_9bGkgdCp8aRRBJHAsVLKTlahl_yj8RbUs7/pub" class="image"><img src="images/Turret.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Autonomous Gel Blaster Turret</h2>
+										<p>For this project, the goal was to develop an autonomous turret that when powered, will scan the area for a target and fine adjust the motor control to 
+											point the toy gun barrel at a pre-determined target signature. Despite the lack of certain sensor feedback, the turret itself was able to effectively locate a target
+											located in the blind-spot ranges of the barrel and adjust accordingly before firing. For my role, I was heavily involved in the software and coding of the behavior and control loops such 
+											as the FSM that is used. Additionally, I offered some insight for the mechanical structure using knowledge from when I was studying mechanical engineering in community college. 
+										</p>
+										<a href="https://docs.google.com/document/d/13eejWfrsiS5yx6LsW5Wk-OvH-oL7lWpd1bjRcfosmxo/edit?usp=sharing" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="https://docs.google.com/document/d/1mE0KQ7AfCFW_HEZltMiHo53sDHnwVCIygh_ia2WSVOI/edit?usp=sharing" class="image"><img src="images/AV.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Autonomous Vehicle Platform</h2>
+										<p>This project had students create an autonomous vehicular platform to perform in four events as follows: Tug of War, Race, Trade Depot, and Hide n' Seek.
+											To accomplish these tasks, our robot utilized a closed feedback loop for Tug of War, line following for the Race, and color/signature recognition for both Trade Depot and Hide n' Seek.
+											This project tasked me with working on software for sensor fusion and feedback data sent to the STM32 Nucleo board to adjust motor control. Additionally, I had done some work in the mechanical design to ensure
+											the design fit everything within the size constraint we were given as well as I was involved in the electrical design.
+										</p>
+										<a href="https://docs.google.com/document/d/1mE0KQ7AfCFW_HEZltMiHo53sDHnwVCIygh_ia2WSVOI/edit?usp=sharing" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="https://github.com/2722Kyle/FPGA-Chess-Implementation" class="image"><img src="images/chess.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">FPGA Chess/Checkers Implementation</h2>
+										<p>This project's overall goal was to prove the student's knowledge of FPGAs and Verilog by creating something from the ground up. In this case, Chess was a heavy influence and was coded
+											in Verilog with the VGA modules being coded in HDL. The end goal of the project was to create a fully-functional game of chess between two players or against an AI opponent with the logic for all rules 
+											to be implemented. The group was able to accomplish two-player play however was not able to include an AI opponent due to time constraints. Due to time constraints as well, the project pivoted towards a Checkers implementation instead. The project is scalable to include both chess and AI capabilities however.
+											For my portion, I was heavily responsible for creating the all of the game/board logic and tying up all the modules together into the top module to be functioning.
+										</p>
+										<a href="https://github.com/2722Kyle/FPGA-Chess-Implementation" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">More Projects</h2>
+									<p>This section includes more projects and lab work that I have done throughout my career as an engineer. The section will also include any in progress projects as well. For work experience, please reference the "About Me" section from the menu. </p>
+									<section class="features">
+										<article>
+											<a href="https://github.com/2722Kyle/N-Bit-ALU-FPGA" class="image"><img src="images/arithmetic.jpg" alt="" /></a>
+											<h3 class="major">N-bit ALU in Verilog</h3>
+											<p>For this project, I developed an 8-bit ALU using Vivado and a Zybo-Z7 FPGA board. The ALU itself is capable of addition, subtraction, comparisons between two sets of numbers.
+												The output was done in hexadecimal representation and is scalable to more bits granted for physical checks, more inputs and output ports would be needed. </p>
+											<a href="https://github.com/2722Kyle/N-Bit-ALU-FPGA" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://docs.google.com/document/d/11S_1JxAuOBxPZRrDzPV4IRtEqPhNPriutQDjRwiLj7Q/edit?usp=sharing" class="image"><img src="images/elevator.jpg" alt="" /></a>
+											<h3 class="major">Elevator Control System</h3>
+											<p>This project tasked our group with creating an elevator control system. The process took us through design, simulation, and physical testing stages.
+												The elevator was allowed to receive a variety of inputs and respective outputs and contained a feedback system to adjust velocity control. Different weights
+												are also supported within the elevator car.
+											</p>
+											<a href="https://docs.google.com/document/d/11S_1JxAuOBxPZRrDzPV4IRtEqPhNPriutQDjRwiLj7Q/edit?usp=sharing" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://docs.google.com/document/d/1urikYebIGH6E41TsRhDP_deueNHzSyev_nUNECKzQlA/edit?usp=sharing" class="image"><img src="images/PSU.jpg" alt="" /></a>
+											<h3 class="major">12V DC Power Supply PCB Design and Fabrication</h3>
+											<p>In this project, a variable power supply was created from the ground up. All components of the PCB was done by the students from schematic and parts research to overall construction.
+												The supply's power output, reverse polarity and performance were validated through testing procedures and simulations in PSpice.
+											</p>
+											<a href="https://docs.google.com/document/d/1urikYebIGH6E41TsRhDP_deueNHzSyev_nUNECKzQlA/edit?usp=sharing" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://github.com/2722Kyle/Text-Based-RPG" class="image"><img src="images/RPG.jpg" alt="" /></a>
+											<h3 class="major">Text-Based RPG in Python</h3>
+											<p>For this project, I created a text-based RPG that took inspiration from games such as Dungeons and Dragons. This project was done entirely in Python through Jupyter
+												and includes a json file for the assets that are used and seen in the game itself.
+											</p>
+											<a href="https://github.com/2722Kyle/Text-Based-RPG" class="special">Learn more</a>
+										</article>
+									</section>
+									<ul class="actions">
+										<li><a href="MoreProjects.html" class="button">Browse More</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<!-- <p>Saw something that caught your eye and want more information? Please feel free to send me an email!</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form> -->
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Monrovia, CA 91016<br />
+									<!-- 1234 Somewhere Road Suite #2894<br />
+									Nashville, TN 00000-0000 -->
+								</li>
+								<li class="icon solid fa-phone">(702) 824-6862</li>
+								<li class="icon solid fa-envelope"><a href="mailto:khuang2722@gmail.com">khuang2722@gmail.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/kylehuang22/">linkedin.com/kylehuang22</a></li>
+								<li class="icon brands fa-github"><a href="https://github.com/2722Kyle">github.com/2722Kyle</a></li>
+								<!-- <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Kyle Huang. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
